@@ -1,3 +1,10 @@
+# Custom
+notes.txt
+migrator.sh
+netserver.sh
+django_setup.sh
+/igov_virtual
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

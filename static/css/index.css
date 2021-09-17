@@ -1,0 +1,30 @@
+.main-content {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    background: rgba( 52, 58, 64) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 50px 10px 50px 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #fff;
+}
+
+.jumbotron .container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+@media only screen 
+and (max-width : 768px) {
+    .main-content {
+        display: block;
+    }
+}
