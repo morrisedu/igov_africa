@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat&family=Roboto&display=swap&family=Fjalla+One&display=swap');
+
 .main-content {
     margin: 20px;
     display: flex;
@@ -22,9 +24,24 @@
     
 }
 
+.container>.lead, .container>h1 {
+    font-family: 'Lato', sans-serif;
+}
+
 @media only screen 
 and (max-width : 768px) {
     .main-content {
         display: block;
     }
+}
+
+.discontinued {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.discon-table {
+    width: 40%;
+    height: 60vh !important;
 }
